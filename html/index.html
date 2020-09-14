@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<title>Zadanie</title>
+		<meta charset="utf-8" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/bootstrap.css" media="all" />
+		<link rel="stylesheet" href="css/style.css" media="all" />
+
+		<!-- Parralax plugin -->
+		
+		<!-- Font Roboto import -->
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	</head>
+	<body>
+
+		<!--
+		<header class="top">
+			<div class="container">
+				<div class="flex flex--space-between flex--center-y">
+					<div class="top__logo"><a href="#"><img src="https://via.placeholder.com/300x150?text=LOGO" alt=""></a></div>
+					<div class="top__nav hidden-md">
+						<nav class="nav">
+							<ul class="nav__list">
+								<li class="nav__item"><a href="#">Praesent sed</a></li>
+								<li class="nav__item"><a href="#" class="is-active">Donec interdum</a></li>
+								<li class="nav__item"><a href="#">Curabitur eget</a></li>
+								<li class="nav__item"><a href="#">Cras commodo</a></li>
+								<li class="nav__item"><a href="#">Lorem ipsum</a>
+								    <ul class="nav__sublist">
+								        <li class="nav__subitem"><a href="#">Lorem ipsum 1</a></li>
+								        <li class="nav__subitem"><a href="#">Lorem ipsum 2</a></li>
+								        <li class="nav__subitem"><a href="#">Lorem ipsum 3</a></li>
+                                        <li class="nav__subitem"><a href="#">Lorem ipsum 4</a></li>
+                                        <li class="nav__subitem"><a href="#">Lorem ipsum 5</a></li>
+								    </ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<a class="menu-trigger menu-trigger--small js-mobile-menu visible-md">
+						<span class="menu-trigger__inner">
+							<span></span><span></span><span></span><span></span><span></span><span></span>
+						</span>
+					</a>
+				</div>
+			</div>
+		</header>
+		-->
+
+		<!--Header section  -->
+		<header class="top section">
+			<div class="container">
+				<div class="flex flex--space-between flex--center-y ">
+					<div class="top__logo">
+						<a href="#">
+							<img src="images/logo_top.png" alt="BonarStudio.png">
+						</a>
+					</div>
+					<div class="top__nav">
+						<nav class="standard__nav">
+							<ul class="nav__list">
+								<li class="nav__item"><a href="#">O nas</a></li>
+								<li class="nav__item"><a href="#">Produkty</a></li>
+								<li class="nav__item"><a href="#">Projekty</a></li>
+								<li class="nav__item"><a href="#">Kontakt</a></li>
+								<li class="nav__item-last"><a class="last" href="#">Polski</a>
+									<ul class="nav__sublist">
+										<li class="nav__subitem"><a href="#">Polski</a></li>
+								        <li class="nav__subitem"><a href="#">Angielski</a></li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+						<nav class="hamburger">
+							<button class="hamburger__btn btn">
+								<div class="stripe__1"></div>
+								<div class="stripe__2"></div>
+								<div class="stripe__3"></div>
+							</button>
+							<aside class="hamburger__top-menu">
+							  <ul class="hamburger__list">
+								<li class="hamburger__item"><a href="#">O nas</a></li>
+								<li class="hamburger__item"><a href="#">Produkty</a></li>
+								<li class="hamburger__item"><a href="#">Projekty</a></li>
+								<li class="hamburger__item"><a href="#">Kontakt</a></li>
+								<li class="hamburger__item-last"><a class="last" href="#">Polski</a>
+									<ul class="hamburger__sublist">
+										<li class="hamburger__subitem"><a href="#">Polski</a></li>
+								        <li class="hamburger__subitem"><a href="#">Angielski</a></li>
+									</ul>
+								</li>
+							  </ul>
+						  </aside>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Banner section -->
+		<section class="banner section">
+				<div class="banner__parallax">
+					<div class="banner__img" data-parallax="scroll" data-z-index="-2" data-image-src="images/banner.jpg" data-natural-width="1920" data-natural-height="778">
+						<div class="banner__img-opacity" data-parallax="scroll" data-z-index="-1" data-image-src="images/filter.png"></div>
+					</div>
+					<div class="container">
+						<div class="banner__text-outer">
+							<div class="banner__text-inner flex flex--stretch flex--center-y">
+								<h1 class="banner__text-h1">Lorem ipsum sit amet,  vestibulum <span class="banner__header__h1-span">facilisii</span></h1>
+								<p class="banner__text-p"> Suspendisse a pellentesque</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		
+		<!-- About us section -->
+		<section class="section about">
+			<div class="container">
+				<div class="about__header col-lg-4 col-md-5">
+					<h2 class="about__header-h2"><span class="about__header-span">Lorem ipsum</span> vestibulum dapibusum</h2>
+				</div>
+				<div class="about__text">
+					<div class="about__text-1 flex flex--stretch col-lg-5 col-md-5">
+						<p class="about__text__1-p">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a <a href="#" class="about__link">pellentesque</a> dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.</p>
+					</div>
+					<div class="about__text-2 flex flex--stretch offset-lg-2 col-lg-5 offset-md-2 col-md-5">
+						<p class="about__text__2-p">Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim.</p>
+					</div>
+					<div class="about__text-3 flex flex--stretch col-lg-5 col-md-5">
+						<p class="about__text__3-p">Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum.</p>
+					</div>
+					<div class="about__text-4 flex flex--stretch offset-lg-2 col-lg-5 offset-md-2 col-md-5">
+						<p class="about__text__4-p">Phasellus fermentum in, dolor. Pellentesque facilisis. Nulla imperdiet sit amet magna. Vestibulum dapibus, mauris nec malesuada fames ac turpis velit, rhoncus eu, luctus et interdum adipiscing wisi. Aliquam erat ac ipsum. Integer aliquam purus. Quisque lorem tortor fringilla sed, vestibulum.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section mechanisms -->
+		<section class="section section--grey mechanisms">
+			<div class="container">
+		
+				<div class="mechanisms__header">
+					<span class="mechanisms__icon"><img src="../icons/settings.svg" alt="settings_icon"></span>
+					<h3 class="mechanisms__title">Mechanizmy</h3>
+					<div class="mechanisms__text">
+						<p>Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis.</p>
+					</div>
+				</div>
+
+				<div class="mechanisms__tiles">
+					<div class="mechanisms__row row">
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<a href="#" class="item-tile">
+								<div class="item-tile__inner">
+									<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT">
+									<h4 class="item-tile__title">Garden NT</h4>
+								</div>
+								<div class="item-tile__layer">
+									<h4 class="item-tile__title">Garden NT</h4>
+									<p class="item-tile__text">GARDEN NT is an LED fixture 
+									designed for the illumination 
+									of outdoor areas, mounted </p>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<a href="#" class="item-tile">
+								<div class="item-tile__inner">
+									<img class="item-tile__img" src="images/product_img_4.png" alt="Futura PTS Futura PTS">
+									<h4 class="item-tile__title">Futura PTS Futura PTS</h4>
+								</div>
+								<div class="item-tile__layer">
+									<h4 class="item-tile__title">Futura PTS</h4>
+									<p class="item-tile__text">GARDEN NT is an LED fixture 
+									designed for the illumination 
+									of outdoor areas, mounted </p>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<a href="#" class="item-tile">
+								<div class="item-tile__inner">
+									<img class="item-tile__img" src="images/product_img_2.png" alt="Art Lights S">
+									<h4 class="item-tile__title">Art Lights S</h4>
+								</div>
+								<div class="item-tile__layer">
+									<h4 class="item-tile__title">Art Lights S</h4>
+									<p class="item-tile__text">GARDEN NT is an LED fixture 
+									designed for the illumination 
+									of outdoor areas, mounted </p>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<a href="#" class="item-tile">
+								<div class="item-tile__inner">
+									<img class="item-tile__img" src="images/product_img_3.png" alt="Smart Line 1F">
+									<h4 class="item-tile__title">Smart Line 1F</h4>
+								</div>
+								<div class="item-tile__layer">
+									<h4 class="item-tile__title">Smart Line 1F</h4>
+									<p class="item-tile__text">GARDEN NT is an LED fixture 
+									designed for the illumination 
+									of outdoor areas, mounted </p>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<a href="#" class="item-tile">
+								<div class="item-tile__inner">
+									<img class="item-tile__img" src="images/product_img_2.png" alt="Art Lights S">
+									<h4 class="item-tile__title">Art Lights S</h4>
+								</div>
+								<div class="item-tile__layer">
+									<h4 class="item-tile__title">Art Lights S</h4>
+									<p class="item-tile__text">GARDEN NT is an LED fixture 
+									designed for the illumination 
+									of outdoor areas, mounted </p>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<a href="#" class="item-tile">
+								<div class="item-tile__inner">
+									<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT">
+									<h4 class="item-tile__title">Garden NT</h4>
+								</div>
+								<div class="item-tile__layer">
+									<h4 class="item-tile__title">Garden NT</h4>
+									<p class="item-tile__text">GARDEN NT is an LED fixture 
+									designed for the illumination 
+									of outdoor areas, mounted </p>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<a href="#" class="item-tile">
+								<div class="item-tile__inner">
+									<img class="item-tile__img" src="images/product_img_3.png" alt="Smart Line 1F">
+									<h4 class="item-tile__title">Smart Line 1F</h4>
+								</div>
+								<div class="item-tile__layer">
+									<h4 class="item-tile__title">Smart Line 1F</h4>
+									<p class="item-tile__text">GARDEN NT is an LED fixture 
+									designed for the illumination 
+									of outdoor areas, mounted </p>
+								</div>
+							</a>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<a href="#" class="item-tile">
+								<div class="item-tile__inner">
+									<img class="item-tile__img" src="images/product_img_4.png" alt="Futura PTS Futura PTS">
+									<h4 class="item-tile__title">Futura PTS Futura PTS</h4>
+								</div>
+								<div class="item-tile__layer">
+									<h4 class="item-tile__title">Futura PTS</h4>
+									<p class="item-tile__text">GARDEN NT is an LED fixture 
+									designed for the illumination 
+									of outdoor areas, mounted </p>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="mechanisms__bottom">
+					<a href="#" class="btn">WYŚLIJ WIADOMOŚĆ</a>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Section Lighting -->
+		<section class="section lighting">
+			<div class="container">
+				<div class="lighting__header">
+					<span class="lighting__icon"><img class="color-green" src="../icons/bulb.svg" alt="bulb_icon"></span>
+					<h3 class="lighting__title">Oświetlenie</h3>
+					<div class="lighting__text">
+						<p>Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis.</p>
+					</div>
+				</div>
+				
+				<div class="bulb__tiles">
+					<div class="bulb__row row">
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<div class="bulb-tile">
+								<div class="bulb__tile-inner">
+									<img class="bulb-tile__img" src="images/bulb_big.png" alt="bulb_image">
+									<h4 class="bulb-tile__title">Garden NT</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<div class="bulb-tile">
+								<div class="bulb__tile-inner">
+									<img class="bulb-tile__img" src="images/bulb_big.png" alt="bulb_image">
+									<h4 class="bulb-tile__title">Futura PTS</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<div class="bulb-tile">
+								<div class="bulb__tile-inner">
+									<img class="bulb-tile__img" src="images/bulb_big.png" alt="bulb_image">
+									<h4 class="bulb-tile__title">Art Lights S Curabitur et ligula </h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<div class="bulb-tile">
+								<div class="bulb__tile-inner">
+									<img class="bulb-tile__img" src="images/bulb_big.png" alt="bulb_image">
+									<h4 class="bulb-tile__title">Smart Line 1F</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<div class="bulb-tile">
+								<div class="bulb__tile-inner">
+									<img class="bulb-tile__img" src="images/bulb_big.png" alt="bulb_image">
+									<h4 class="bulb-tile__title">Art Lights S Curabitur et ligula </h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<div class="bulb-tile">
+								<div class="bulb__tile-inner">
+									<img class="bulb-tile__img" src="images/bulb_big.png" alt="bulb_image">
+									<h4 class="bulb-tile__title">Garden NT</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<div class="bulb-tile">
+								<div class="bulb__tile-inner">
+									<img class="bulb-tile__img" src="images/bulb_big.png" alt="bulb_image">
+									<h4 class="bulb-tile__title">Smart Line 1F</h4>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6 col-lg-4 col-xl-3 flex flex--stretch">
+							<div class="bulb-tile">
+								<div class="bulb__tile-inner">
+									<img class="bulb-tile__img" src="images/bulb_big.png" alt="bulb_image">
+									<h4 class="bulb-tile__title">Futura PTS</h4>
+								</div>
+							</div>
+						</div>
+					
+					</div>
+				</div>
+				
+			</div>
+		</section>
+
+		<!-- Section Power Supplies -->
+		<section class="section section--grey power">
+			<div class="container">
+				<div class="power__header">
+					<span class="power__icon"><img src="../icons/plug.svg" alt="power_icon"></span>
+					<h3 class="power__title">Zasilacze</h3>
+					<div class="power__text">
+						<p>Maecenas malesuada elit lectus felis, malesuada ultricies. Curabitur et ligula. Ut molestie a, ultricies porta urna. Vestibulum commodo volutpat a, convallis ac, laoreet enim. Phasellus fermentum in, dolor. Pellentesque facilisis.</p>
+					</div>
+				</div>
+
+				<div class="gallery js-flickity" data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+					<div class="gallery-cell">
+						<div class="row">
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT">
+										<h4 class="item-tile__title">Garden NT</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Garden NT</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_4.png" alt="Futura PTS Futura PTS">
+										<h4 class="item-tile__title">Futura PTS Futura PTS</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Futura PTS</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_2.png" alt="Art Lights S">
+										<h4 class="item-tile__title">Art Lights S</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Art Lights S</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_3.png" alt="Smart Line 1F">
+										<h4 class="item-tile__title">Smart Line 1F</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Smart Line 1F</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_2.png" alt="Art Lights S">
+										<h4 class="item-tile__title">Art Lights S</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Art Lights S</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT Garden NT">
+										<h4 class="item-tile__title">Garden NT Garden NT</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Garden NT</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_3.png" alt="Smart Line 1F">
+										<h4 class="item-tile__title">Smart Line 1F</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Smart Line 1F</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_4.png" alt="Futura PTS Futura PTS">
+										<h4 class="item-tile__title">Futura PTS Futura PTS</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Futura PTS</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-cell">
+						<div class="row">
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_1.png" alt="Garden N">
+										<h4 class="item-tile__title">Garden NT</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Garden NT</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT Garden NT">
+										<h4 class="item-tile__title">Garden NT Garden NT</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Garden NT</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT">
+										<h4 class="item-tile__title">Garden NT</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Garden NT</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT Garden NT">
+										<h4 class="item-tile__title">Garden NT Garden NT</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Garden NT</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT">
+										<h4 class="item-tile__title">Garden NT</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Garden NT</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT Garden N">
+										<h4 class="item-tile__title">Garden NT Garden NT</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Garden NT</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT">
+										<h4 class="item-tile__title">Garden NT</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Garden NT</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+							<div class="col-sm-6 col-lg-3 col-xl-3 flex flex--stretch">
+								<a href="#" class="item-tile">
+									<div class="item-tile__inner">
+										<img class="item-tile__img" src="images/product_img_1.png" alt="Garden NT Garden NT">
+										<h4 class="item-tile__title">Garden NT Garden NT</h4>
+									</div>
+									<div class="item-tile__layer">
+										<h4 class="item-tile__title">Garden NT</h4>
+										<p class="item-tile__text">GARDEN NT is an LED fixture 
+										designed for the illumination 
+										of outdoor areas, mounted </p>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+
+
+		<!-- Section Banner Bottom -->
+		<section class="section bannerBot">
+				<div class="bannerBot__row row">
+					<div class="bannerBot__col-1">
+						<div class="bannerBot__text">
+							<h2 class="bannerBot__title col-lg-6">Quisque cursus et porttitor risus</h2>
+							<p class="bannerBot__p col-lg-10">Suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies a, gravida vitae, dapibus risus ante sodales.</p>
+						</div>
+					</div>
+					<div class="bannerBot__col-2">
+						<span class="bannerBot__img"><img src="../html/images/banner_medium.jpg" alt="Bonar_Studio_banner_medium"></span>
+					</div>
+				</div>
+		</section>
+		
+		<!-- Section Projects -->
+		<section class="section section--grey projects">
+			<div class="container">
+				<div class="projects__header">
+					<h2 class="projects__header-title">PROJEKTY vel lectus. Ut sagittis. Ipsum dolor quam.</h2>
+					<p class="projects__header-text"> Suscipit adipiscing. Cum sociis natoque penatibus et ultrices volutpat. Nullam wisi ultricies a, gravida vitae, dapibus risus ante sodales lectus blandit eu, tempor diam pede cursus vitae, ultricies eu, faucibus quis, porttitor eros cursus lectus, pellentesque eget, bibendum a, gravida ullamcorper quam.</p>
+				</div>
+				<div class="projects__tiles">
+					<div class="row">
+						<div class="projects__tile__img-1 order-lg-1 col-lg-6 flex flex--stretch">
+							<div class="projects__tile-inner">
+								<img class="projects__tile-img" src="images/banner_bottom_1.jpg" alt="banner_coding">
+							</div>
+						</div>
+						<div class="projects__tile__text-1 order-lg-2 col-lg-6 flex flex--stretch flex--center-y">
+							<div class="projects__tile-inner">
+								<h2 class="projects__tile-header">Tempor diam pede 
+									<span class="projects__tile-span">Bonar Studio</span> 
+								</h2>
+								<p class="projects__tile-p">Lorem ip Aliquam sem. In hendrerit nulla quam  nunc, accumsa</p>
+							</div>
+						</div>
+						<div class="projects__tile__img-2 order-lg-4 col-lg-6 flex flex--stretch">
+							<div class="projects__tile-inner">
+								<img class="projects__tile-img" src="images/banner_bottom_2.jpg" alt="banner_girl">
+							</div>
+						</div>
+						<div class="projects__tile__text-2 order-lg-3 col-lg-6 flex flex--stretch flex--center-y">
+							<div class="projects__tile-inner">
+								<h2 class="projects__tile-header">Nullam wisi ultricies 
+									<span class="projects__tile-span">Google Inc.</span> 
+								</h2>
+								<p class="projects__tile-p">Lorem ip Aliquam sem. In hendrerit nulla quam.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Form -->
+		<section class="section forms">
+			<div class="container">
+				<div class="forms__header">
+					<h2 class="forms__title">Masz pytanie? Napisz do nas wiadomość</h2>
+				</div>
+				<div class="forms__content">
+					<form>
+						<div class="forms__content-1 row">
+							<div class="forms__item-1 col-lg-3 flex flex--stretch">
+								<label class="item__label">IMIĘ I NAZWISKO / FIRMA*</label>
+								<input class="item__input" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder ='Wprowadź dane..'" placeholder="Wprowadź dane..">
+							</div>
+							<div class="forms__item-2 col-lg-3 flex flex--stretch">
+								<label class="item__label">NUMER TELEFONU*</label>
+								<input class="item__input" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder ='Wprowadź dane..'" placeholder="Wprowadź dane..">
+							</div>
+							<div class="forms__item-3 col-lg-3 flex flex--stretch">
+								<label class="item__label">ADRES E-MAIL*</label>
+								<input class="item__input" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder ='Wprowadź dane..'" placeholder="Wprowadź dane..">
+							</div>
+							<div class="forms__item-4 col-lg-9 flex flex--stretch">
+								<label class="item__label">TREŚĆ WIADOMOŚCI*</label>
+								<input class="item__input" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder ='Wprowadź dane..'" placeholder="Wprowadź dane..">
+							</div>
+						</div>
+						<div class="forms__footer row">
+							<div class="form__footer-chekbox col-lg-4 flex flex--stretch flex--center-y">
+								<label class="checkbox__container"> 
+									<input type="checkbox">
+									<span class="checkmark"></span>
+									Zapoznałem się z regulaminem 
+								</label>
+							</div>
+							<div class="forms__footer-button offset-lg-1 col-lg-4 flex flex--stretch flex--center-y">
+								<a href="#" class="forms__button btn">WYŚLIJ WIADOMOŚĆ</a>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<!-- Section Footer -->
+		<footer class="section footer">
+			<div class="container">
+				<div class="footer__content-1 row">
+					<div class="footer__item-1 col-lg-2 flex--stretch">
+						<span class="footer__logo"><img src="../html/images/logo_footer.png" alt="power_icon"></span>
+					</div>
+					<div class="footer__item-2 col-lg-2 offset-lg-1 flex--stretch">
+						<div class="footer__item-text">
+							<h4 class="footer__item-title">Lorem ipsum</h4>
+							<a href="#" class="footer__item-a">www.google.pl</a>
+							<a href="#" class="footer__item-a">www.iguanastudio.pl</a>
+						</div>
+					</div>
+					<div class="footer__item-3 col-lg-2 offset-lg-1 flex--stretch">
+						<div class="footer__item-text">
+							<h4 class="footer__item-title">consectetuer</h4>
+							<a href="#" class="footer__item-a">Mechanizmy</a>
+							<a href="#" class="footer__item-a">Oświetlenie</a>
+							<a href="#" class="footer__item-a">Zasliacze</a>
+						</div>
+					</div>
+					<div class="footer__item-4 col-lg-2 offset-lg-1 flex flex--stretch">
+						<div class="footer__item-text">
+							<h4 class="footer__item-title">Nullam</h4>
+							<a href="#" class="footer__item-a">Aliquam sem</a>
+							<a href="#" class="footer__item-a">In hendrerit nulla quam</a>
+							<a href="#" class="footer__item-a">Qunc accumsan congu</a>
+							<a href="#" class="footer__item-a">Cum sociis natoque</a>
+						</div>
+					</div>
+				</div>
+				<div class="footer__content-2 row">
+					<div class="footer__item-1 flex flex--stretch flex--center-y">
+						<div class="footer__bottom-text">
+							<p class="footer__bottom-p">Copyright 2020 <span class="footer__bold">Bonar Studio</span>. All rights reserved.</p>
+						</div>
+					</div>
+					<div class="footer__item-2 flex flex--stretch flex--center-y">
+						<div class="footer__bottom-text">
+							<p class="footer__bottom-p">Projekt i realizacja: <span class="footer__bold">Bonar Studio</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/parallax.js"></script>
+		<script src="js/flickity.pkgd.js"></script>
+		
+		<!-- Function to resize header while scrolling page -->
+		<script>
+			
+		</script>
+
+	</body>
+</html>
